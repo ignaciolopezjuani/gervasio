@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!-- Chrome Frame -->
-    <title>{{ page.title }} - PageTitle</title>
+    <title>{{ page.title }} - Gervasio</title>
     <meta name="application-name" content="">
     <meta name="description" content="">
     <meta name="author" content="Ignacio Lopez Juani">
@@ -13,9 +13,56 @@
 </head>
 
 <body class="{{ page.body_class }}">
-    <header class="main-header"></header>
+    <header class="main-header">
+        <h1 class="main-heading"><a href="#">Gervasio</a></h1>
+        <nav>
+          <h1 class="hidden">Navigation bar</h1>
+              <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+        </nav>
+        <aside>
+            <ul class="languages">
+                <li>Espa&#241;ol</li>
+                <li>English</li>
+            </ul>
+            <nav class="secondary-nav">
+                <h1 class="hidden">Secondary Navigation</h1>
+                <ul>
+                    <li><a href="#">Ilustraci&oacute;n</a></li>
+                    <li><a href="#">Dise&#241;o Gr&#225;fico</a></li>
+                    <li><a href="#">Creatividad</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </header>
+
     <div class="main-container">{{ content }}</div>
-    <footer class="main-footer"></footer>
+
+    <footer class="main-footer">
+        <img src="media/images/gervasio.png" alt="Gervasio">
+        <p>Hola... Soy ...................</p>
+        <div>
+            <ul class="networks">
+                <li>
+                    <a class="tw_btn" href="https://twitter.com/" target="_blank"><span>Twitter</span></a>
+                </li>
+                <li>
+                    <a class="gt_btn" href="https://github.com" target="_blank"><span>Github</span></a>
+                </li>
+                <li>
+                    <a class="ml_btn" href="mailto:@.com"><span>Mail</span></a>
+                </li>
+            </ul>
+            <ul class="footer-nav">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
 
     <!-- Scripts -->
     <script src="media/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
