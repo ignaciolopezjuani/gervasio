@@ -21,6 +21,7 @@ a {
     display: none;
 }
 .main-heading a {
+    font-family: 'Lato', sans-serif;
     color: #2CD7E6;
     font-size: 30px;
 }
@@ -35,6 +36,7 @@ a {
 }
 
 .main-header {
+    padding: 1em 10%;
     color: #fff;
     background-color: rgba(33, 20, 38, 0.8);
 }
@@ -42,19 +44,27 @@ a {
 
 }
 
+.main-content h1 {
+    font-family: 'Lato', sans-serif;
+    color: #FF3B8E;
+    font-size: 30px;
+
+}
+
 .main-content .illustration {
     background-color: rgba(65, 54, 89, 0.6);
+    padding: 60px 10%;
 }
 
 .main-content .design {
     background-color: rgba(101, 111, 140, 0.6);
+    padding: 60px 10%;
 }
 
 .main-content .creative {
     background-color: rgba(155, 191, 171, 0.6);
+    padding: 60px 10%;
 }
-
-/*testing*/
 
 .main-content ul.work li{
     display:inline-block; /*places the images in a line*/
@@ -93,6 +103,7 @@ opacity: 1;
 }
 
 .main-footer {
+    padding: 60px 10%;
     background-color: rgba(242, 239, 223, 0.6);
 }
 
