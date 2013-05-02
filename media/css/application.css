@@ -130,8 +130,11 @@ opacity: 1;
  .main-footer p {
     float: left;
 }
+.main-footer img{
+    border-radius: 50%;
+}
 
-.main-footer div {
+.main-footer .contact {
     float: right;
     padding-right: 10%;
 }
@@ -173,7 +176,63 @@ opacity: 1;
     border: 15px solid;
     border-color: #fff transparent transparent #fff;
 }
+.main-footer li{
+    display: inline-block;
+}
 
+.main-footer .networks {
+    padding-top: 40px;
+}
+
+.main-footer .networks li {
+    padding-right: 5px;
+}
+
+.main-footer .networks a span {
+    display: none;
+}
+
+.main-footer .networks a {
+    background: rgba(0, 0, 0, 0) url(../images/social-sprites.png) top left no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.main-footer .networks a.dl_btn {
+  background-position: 0 0;
+}
+.main-footer .networks a.dl_btn:hover {
+  background-position: 0 -24px;
+}
+
+.main-footer .networks a.fl_btn {
+  background-position: -24px 0;
+}
+.main-footer .networks a.fl_btn:hover {
+  background-position: -24px -24px;
+}
+
+.main-footer .networks a.tl_btn {
+  background-position: -48px 0;
+}
+.main-footer .networks a.tl_btn:hover {
+  background-position: -48px -24px;
+}
+
+.main-footer .networks a.tw_btn {
+  background-position: -72px 0;
+}
+.main-footer .networks a.tw_btn:hover {
+  background-position: -72px -24px;
+}
+
+.main-footer .footer-nav {
+    padding-top: 25px;
+}
+.main-footer .footer-nav li{
+    padding-left: 15px;
+}
 /* Section-specific styles ************************************************/
 
 body.home {
