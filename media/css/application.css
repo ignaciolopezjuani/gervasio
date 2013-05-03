@@ -17,6 +17,9 @@ a {
     color: #fff;
     text-decoration: none;
 }
+a:hover {
+    color: #E6E6E6;
+}
 
 .hidden {
     display: none;
@@ -25,7 +28,7 @@ a {
     font-family: 'Lato', sans-serif;
     color: #2CD7E6;
     font-size: 30px;
-    text-shadow: 1px 1px 1px #F2EFDF;
+    text-shadow: 1px 1px 1px #C2C2C2;
         filter: dropshadow(color=#fff, offx=1, offy=1);
 }
 .main-header {
@@ -38,6 +41,7 @@ a {
 .main-nav ul,
 .secondary-nav ul {
     float: right;
+    font-weight: bold;
 }
 .main-nav ul li,
 .secondary-nav ul li {
@@ -64,6 +68,7 @@ a {
     color: #FF3B8E;
     font-size: 30px;
     text-shadow: 1px 1px 1px #F2EFDF;
+    margin-bottom: 50px;
 }
 
 .main-content .illustration {
@@ -121,6 +126,9 @@ opacity: 1;
     padding: 0 10%;
     background-color: rgba(242, 239, 223, 0.7);
 }
+.main-footer .about {
+    margin-top: 40px;
+}
 
 .main-footer a {
     color: #000;
@@ -134,12 +142,8 @@ opacity: 1;
     border-radius: 50%;
 }
 
-.main-footer .contact {
-    float: right;
-    padding-right: 10%;
-}
-
 .main-footer .speech {
+    margin-left: 15px;
     position: relative;
     width: 200px;
     height: 100px;
@@ -181,11 +185,7 @@ opacity: 1;
 }
 
 .main-footer .networks {
-    padding-top: 40px;
-}
-
-.main-footer .networks li {
-    padding-right: 5px;
+    margin-top: 40px;
 }
 
 .main-footer .networks a span {
