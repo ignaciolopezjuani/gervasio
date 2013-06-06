@@ -20,6 +20,12 @@ a {
 a:hover {
     color: #E6E6E6;
 }
+a.first-nav:hover {
+    color: #2CD7E6;
+}
+a.second-nav:hover {
+    color: #FF3B8E;
+}
 
 .hidden {
     display: none;
