@@ -133,7 +133,10 @@ opacity: 1;
     background-color: rgba(242, 239, 223, 0.7);
 }
 .main-footer .about {
-    margin-top: 40px;
+    margin: 40px 120px;
+}
+.main-footer .about p {
+    margin-left: 50px
 }
 
 .main-footer a {
@@ -192,6 +195,8 @@ opacity: 1;
 
 .main-footer .networks {
     margin-top: 40px;
+    float: right;
+    margin-right: 50px;
 }
 
 .main-footer .networks a span {
@@ -235,10 +240,16 @@ opacity: 1;
 
 .main-footer .footer-nav {
     padding-top: 25px;
+    font-weight: bold;
 }
 .main-footer .footer-nav li{
     padding-left: 15px;
 }
+
+.main-footer .footer-info{
+    float: right;
+}
+
 /* Section-specific styles ************************************************/
 
 body.home {
