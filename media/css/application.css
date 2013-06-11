@@ -119,9 +119,9 @@ background-color:#F7F8FD;
 }
 
 .main-content ul.work img:hover {
--webkit-transform:scale(1.2);
--moz-transform:scale(1.2);
--o-transform:scale(1.2); /
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-o-transform:scale(1.1); /
 box-shadow:0px 0px 30px gray;
 -webkit-box-shadow:0px 0px 30px gray;
 -moz-box-shadow:0px 0px 30px gray;
@@ -133,7 +133,7 @@ opacity: 1;
     background-color: rgba(242, 239, 223, 0.7);
 }
 .main-footer .about {
-    margin: 40px 120px;
+    margin: 50px 333px;
 }
 .main-footer .about p {
     margin-left: 50px
@@ -148,7 +148,7 @@ opacity: 1;
     float: left;
 }
 .main-footer img{
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 .main-footer .speech {
@@ -248,6 +248,7 @@ opacity: 1;
 
 .main-footer .footer-info{
     float: right;
+    margin-bottom: 60px;
 }
 
 /* Section-specific styles ************************************************/
